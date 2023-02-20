@@ -1,0 +1,512 @@
+body{
+    background-color: #aba;
+    width: 400px;
+    height: 600px;
+    border:2px solid #000;
+}
+
+.eye{
+    background-color: transparent;
+    width: 130px;
+    height: 90px;
+    border-top: 4px solid #000;
+    position: relative;
+    top: 50px;
+    border-radius: 50%;
+    left: 100px;
+    transform: rotate(-15deg);
+}
+
+.eye1{
+    background-color: transparent;
+    width: 130px;
+    height: 85px;
+    border-bottom: 4px solid #000;
+    position: relative;
+    top: -65px;
+    border-radius: 50%;
+    left: 95px;
+    transform: rotate(-15deg);
+}
+
+.upEye{
+    background-color: transparent;
+    width: 130px;
+    height: 90px;
+    border-top: 4px solid transparent;
+    position: relative;
+    top: -133px;
+    border-radius: 50%;
+    left: 100px;
+    transform: rotate(-15deg);
+    box-shadow: 5px -15px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.EyeB{
+    width: 130px;
+    height: 35px;
+    background-color: transparent;
+    position: relative;
+    border-top: 10px solid rgba(0, 0, 0, 0.6);
+    top: -250px;
+    left: 90px;
+    border-radius: 55%;
+    transform: rotate(2deg);
+}
+
+.EYEB1{
+    height: 35px;
+    width: 170px;
+    background-color: transparent;
+    position: relative;
+    border-bottom:8px solid rgba(100, 100, 100, 0.7);
+    top: -333px;
+    left: 70px;
+    border-radius: 20%;
+}
+
+.EyeBall{
+    background-color: #009;
+    width: 90px;
+    height: 58px;
+    position: relative;
+    top: -312px;
+    left: 112px;
+    border-radius: 50%;
+    transform: rotate(-13deg);
+    border: 3px solid #000;
+    border-left: 9px solid #000;
+    border-right: 1px solid #0ff;
+    border-bottom: 2px solid #0aa;
+}
+
+.EyeBall1{
+    background-color: transparent;
+    width: 50px;
+    height: 15px;
+    position: relative;
+    top: -355px;
+    left: 140px;
+    border-bottom: 3px solid #0bb;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    box-shadow: -10px -15px 30px 5px #0ff;
+}
+
+.mainT{
+    background-color: transparent;
+    width: 50px;
+    height: 15px;
+    position: relative;
+    top: -370px;
+    left: 140px;
+    border-top: 1px solid #000;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    box-shadow: 15px 20px 30px 2px #111;
+}
+
+.nose1{
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -260px;
+    left: 30px;
+    border-top: 10px solid #000;
+    border-radius: 100%;
+    transform: rotate(30deg);
+}
+
+.nose2{
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -290px;
+    left: 60px;
+    border-top: 10px solid #000;
+    border-radius: 100%;
+    transform: rotate(-30deg);
+}
+
+.uLip{
+    width:60px;
+    height:25px;
+    Background-color:transparent ;
+    Border-bottom:5px solid #000;
+    border-radius:50%;
+    position:relative ;
+    top:-268px;
+    left:25px;
+    box-shadow:0px 5px 10px 1px #000;
+}
+
+.lLip{
+    width:60px;
+    height:25px;
+    Background-color:transparent ;
+    Border-top:5px solid #000;
+    border-radius:50%;
+    position:relative ;
+    top:-295px;
+    left:25px;
+    box-shadow:0px -5px 10px 1px #000;
+}
+
+.hair1{
+    width: 13px;
+    height: 0px;
+    border-top: 200px solid #222;
+    position: relative;
+    top: -36.4em;
+    border-right: 5px solid transparent;
+    border-left: 15px solid transparent;
+    box-shadow: 18px 0px 40px 1px #000;
+}
+
+.hair2{
+    width: 20px;
+    height: 0px;
+    border-top: 180px solid transparent;
+    position: relative;
+    top: -49.2em;
+    border-right: 1px solid transparent;
+    border-left: 15px solid #333;
+    border-radius: 50%;
+    left: 36px;
+    transform: rotate(-13deg);
+    box-shadow: -30px 0px 40px 6px #111;
+}
+
+.hair3{
+    width: 10px;
+    height: 0px;
+    border-top: 280px solid transparent;
+    position: relative;
+    top: -60.2em;
+    border-right: 5px solid transparent;
+    border-left: 25px solid #444;
+    border-radius: 20%;
+    left: 216px;
+    transform: rotate(0deg);
+    box-shadow: -10px 0px 40px 6px #444;
+}
+
+.hair4{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    top: -72em;
+    border-radius: 100%;
+    border-right: 5px solid #444;
+    background-color: transparent;
+    transform: rotate(35deg);
+    left: 90px;
+    box-shadow: 25px -5px 30px 1px #222;
+}
+
+.hair5{
+    width:100px;
+    height:300px;
+    position:relative ;
+    top:-95em;
+    Border-radius:0% 0% 100%100%;
+    border-left:35px solid #444;
+    Background-color:transparent ;
+    transform:rotate(-15deg);
+    left:252px;
+    box-shadow:-25px 20px 30px 1px #000;
+}
+
+.hair6{
+    width:200px;
+    height:300px;
+    position:relative ;
+    top:-114em;
+    Border-radius:0% 0% 70% 10%;
+    border-right:65px solid #444;
+    Background-color:transparent ;
+    transform:rotate(-15deg);
+    left:102px;
+    box-shadow:25px 20px 30px 1px #000;
+}
+
+
+.hair7{
+    width: 0px;
+    height: 350px;
+    background-color: transparent;
+    position: relative;
+    top: -134em;
+    border-radius: 0% 0% 100% 0%;
+    border-right: 50px solid #444;
+    transform: rotate(-1deg);
+    left: 250px;
+    box-shadow: 0px 5px 30px 15px #000;
+}
+
+.hair8{
+    width: 100px;
+    height: 250px;
+    position: relative;
+    top: -156.5em;
+    border-radius: 0% 0% 100% 10%;
+    border-right: 20px solid #444;
+    background-color: transparent;
+    transform: rotate(10deg);
+    left: 150px;
+    box-shadow: 25px 10px 20px 1px #000;
+}
+
+.flower1{
+    width: 150px;
+    height: 100px;
+    border-radius: 0% 100% 0% 100%;
+    background-color: #00a;
+    position: relative;
+    top: -155.5em;
+    left: -80px;
+    transform: rotate(5deg);
+    transform: rotate(5deg);
+    border: 2px solid #000;
+}
+
+.flower2{
+    width:12px;
+    Height:12px;
+    background-color:#0ff;
+    box-shadow:-30px -20px 30px 25px #000;
+    position:relative;
+    top:-156em;
+    left:55px;
+    Border-radius:0% 100% 0% 100%;
+}
+
+.flower3{
+    width: 150px;
+    height: 100px;
+    border-radius: 0% 100% 0% 100%;
+    background-color: #00a;
+    position: relative;
+    top: -157.5em;
+    left: -95px;
+    transform: rotate(-50deg);
+    border: 2px solid #000;
+}
+
+.flower4{
+    width: 12px;
+    height: 12px;
+    background-color: #0ff;
+    box-shadow: -30px -20px 30px 25px #0ff;
+    position: relative;
+    top: -162.6em;
+    left: 53px;
+    border-radius: 0% 100% 0% 100%;
+    transform: rotate(-50deg);
+}
+
+.flower5{
+    width: 150px;
+    height: 100px;
+    border-radius: 0% 100% 0% 100%;
+    background-color: #00a;
+    position: relative;
+    top: -160.4em;
+    left: -24px;
+    transform: rotate(65deg);
+    border: 2px solid #000;
+}
+
+.flower6{
+    width: 12px;
+    height: 12px;
+    background-color: #0ff;
+    box-shadow: 30px 20px 30px 25px #000;
+    position: relative;
+    top: -169.3em;
+    left: 57px;
+    border-radius: 0% 100% 0% 100%;
+    transform: rotate(65deg);
+}
+
+.flower7{
+    width:150px ;
+    height:100px;
+    Border-radius:0% 100% 0% 100%;
+    Background-color:#00a;
+    position:relative ;
+    top:-170.8em;
+    left:75px;
+    transform:rotate(-9deg);
+    Border:2px solid #000;
+}
+
+.flower8{
+    width:12px;
+    Height:12px;
+    background-color:#0ff;
+    box-shadow:30px 20px 30px 25px #0ff;
+    position:relative;
+    top:-176.6em;
+    left:67px;
+    Border-radius:0% 100% 0% 100%;
+    transform:rotate(-9deg);
+}
+
+.flower9{
+    width: 150px;
+    height: 100px;
+    border-radius: 0% 100% 0% 100%;
+    background-color: transparent;
+    position: relative;
+    top: -183.7em;
+    left: 70px;
+    transform: rotate(-65deg);
+    border: 2px solid transparent;
+}
+
+.flower10{
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    box-shadow: 30px 20px 30px 25px transparent;
+    position: relative;
+    top: -184.6em;
+    left: 70px;
+    border-radius: 0% 100% 0% 100%;
+    transform: rotate(-65deg);
+}
+
+.flower11{
+    width: 130px;
+    height: 80px;
+    border-radius: 0% 100% 0% 100%;
+    background-color: #00a;
+    position: relative;
+    top: -187em;
+    left: 50px;
+    transform: rotate(5deg);
+    border: 2px solid #000;
+}
+
+.flower12{
+    width:12px;
+    Height:12px;
+    background-color:#0ff;
+    box-shadow:-30px -20px 30px 25px #0ff;
+    position:relative;
+    top:-187.5em;
+    left:170px;
+    Border-radius:0% 100% 0% 100%;
+}
+
+.flower13{
+    width: 130px;
+    height: 80px;
+    border-radius: 0% 100% 0% 100%;
+    background-color: #00a;
+    position: relative;
+    top: -188.4em;
+    left: 40px;
+    transform: rotate(-50deg);
+    border: 2px solid #000;
+}
+
+.flower14{
+    width:12px;
+    Height:12px;
+    background-color:#0ff;
+    box-shadow:-30px -20px 30px 25px #000;
+    position:relative;
+    top:-193em;
+    left:167px;
+    Border-radius:0% 100% 0% 100%;
+    transform:rotate(-50deg);    
+}
+
+.flower15{
+    width: 130px;
+    height: 80px;
+    border-radius: 0% 100% 0% 100%;
+    background-color: #00a;
+    position: relative;
+    top: -191em;
+    left: 106px;
+    transform: rotate(65deg);
+    border:2px solid #000;
+}
+
+.flower16{
+    width: 12px;
+    height: 12px;
+    background-color: #0ff;
+    box-shadow: 30px 20px 30px 25px #0ff;
+    position: relative;
+    top: -198.4em;
+    left: 172px;
+    border-radius: 0% 100% 0% 100%;
+    transform: rotate(65deg);
+}
+
+.flower17{
+    width: 130px;
+    height: 80px;
+    border-radius: 0% 100% 0% 100%;
+    background-color: #00a;
+    position: relative;
+    top: -200em;
+    left: 188px;
+    transform: rotate(-9deg);
+    border: 2px solid #000;
+}
+
+.flower18{
+    width: 12px;
+    height: 12px;
+    background-color: #0ff;
+    box-shadow: 30px 20px 30px 25px #000;
+    position: relative;
+    top: -204.6em;
+    left: 180px;
+    border-radius: 0% 100% 0% 100%;
+    transform: rotate(-9deg);
+    
+}
+
+.flower19{
+    width:130px ;
+    height:80px;
+    Border-radius:0% 100% 0% 100%;
+    Background-color:#00a;
+    position:relative ;
+    top:-211em;
+    left:177px;
+    transform:rotate(-65deg);
+    Border:2px solid #000;
+}
+
+.flower20{
+    width:15px;
+    Height:15px;
+    background-color:#0ff;
+    box-shadow:30px 20px 30px 25px #0ff;
+     position:relative;
+    top:-211.5em;
+    left:180px;
+     Border-radius:0% 100% 0% 100%;
+     transform:rotate(-65deg);
+}
+
+.hair9{
+    width: 40px;
+    height: 170px;
+    background-color: transparent;
+    border-left: 10px solid #444;
+    position: relative;
+    top: -238em;
+    left: 180px;
+    box-shadow: -10px 10px 10px 1px #000;
+    border-radius: 0% 0% 100% 100%;
+}
